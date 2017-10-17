@@ -1,6 +1,6 @@
 {
   "name": "react-image-magnifier",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "description": "A react component that accepts a high-res source image and produces a magnifier window on mouse hover over the part of the image the cursor is over",
   "main": "lib/index.js",
   "scripts": {
@@ -32,9 +32,12 @@
     "eslint": "^3.5.0",
     "eslint-plugin-react": "^6.3.0",
     "node-libs-browser": "^0.5.2",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "prop-types": "^15.6.0",
     "rimraf": "^2.5.4",
     "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
